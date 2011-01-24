@@ -11,7 +11,7 @@
 
 /*This is ridiculously messy. My apologies to whoever finds this! I swear I planned to refactor this...*/
 
-div.view-thurgood-search-map div.attachment-before {margin-bottom: 20px;}
+div.view-thurgood-search-map div.attachment-before {margin-bottom: 10px;}
 
 .olPopup #popup {width: 300px; height: 170px;}
 
@@ -19,11 +19,11 @@ div.view-thurgood-search-map div.attachment-before {margin-bottom: 20px;}
 
 ul.quicktabs_tabs.quicktabs-style-sky li a {padding: 0px 6px;}
 
-.pager-item .activeSlide {font-weight: bold}
+.activeSlide a {font-weight: bold}
 
 .views_slideshow_singleframe_pager {position:absolute; left:10%; right:10%; bottom: 0px;}
 
-.views_slideshow_main {height:150px;}
+.views_slideshow_main {min-height:150px;}
 
 .hierarchical-select-lineages {list-style-type: none}
 
