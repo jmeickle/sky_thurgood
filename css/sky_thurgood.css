@@ -14,14 +14,12 @@
 
 div.vertical-tabs {border: none;}
 
-fieldset.vertical-tabs-pane {margin-left: 10px !important;}
+div.vertical-tabs-panes {margin-left: 20px;}
 
-.vertical-tabs-pane div {padding-top: 20px;}
+.vertical-tabs-pane > div {padding-top: 20px;}
 
 #edit-teaser-js {height: 100px;}
 #edit-body {height:200px;}
-
-.resizable-textarea 
 
 div.view-thurgood-search-map div.attachment-before {margin-bottom: 10px;}
 
