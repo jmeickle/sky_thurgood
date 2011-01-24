@@ -10,23 +10,6 @@
  */
 ?>
 <div<?php print $node_attributes; ?>>
-    <div class="meta">
-      <?php if ($submitted): ?>
-      <?php print $picture; ?>
-      <?php endif; ?>
-      <?php if (!$page && $title): ?>
-        <h2><a href="<?php print $node_url; ?>" title="<?php print $title; ?>"><?php print $title; ?></a></h2>
-      <?php endif; ?>
-      <?php if ($submitted): ?>
-        <p><?php print $submitted; ?></p>
-      <?php endif; ?>
-      <?php if ($terms): ?>
-        <div class="terms">
-          <span class="icon">&nbsp;</span>
-          <?php print $terms; ?>
-        </div>
-      <?php endif; ?>
-    </div>
   <div class="content clearfix">
     <?php print $content; ?>
   </div>
