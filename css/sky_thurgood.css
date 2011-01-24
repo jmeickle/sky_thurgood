@@ -11,12 +11,23 @@
 
 /*This is ridiculously messy. My apologies to whoever finds this! I swear I planned to refactor this...*/
 
+fieldset.vertical-tabs-group_location {position: relative;}
+
+#edit-field-location-openlayers-geocoder-query-wrapper, #openlayers-container-openlayers-cck-widget-map-field_location, #edit-field-location-openlayers-wkt-wrapper {width: 400px;}
+
+
+
+
+fieldset.collapsible {padding: 10px;}
+fieldset.collapsible a {font-size: 1em; font-weight: normal; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, Arial, sans-serif;}
+
+.node-form .content-add-more .form-submit {margin-bottom: 10px;}
 
 div.vertical-tabs {border: none;}
 
 div.vertical-tabs-panes {margin-left: 20px;}
 
-.vertical-tabs-pane > div {padding-top: 20px;}
+div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {padding-top: 20px;}
 
 #edit-teaser-js {height: 100px;}
 #edit-body {height:200px;}
