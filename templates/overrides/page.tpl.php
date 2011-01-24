@@ -87,9 +87,9 @@
     </div>
     <!-- END CONTAINER -->
     <div class="push">&nbsp;</div>
-  <?php print $tabs; ?>
   </div>
   <!-- END WRAPPER -->
+  <?php print $tabs; ?>
   <div id="footer" class="layout-region">
     <div id="footer-inner">
       <?php print $contentfooter; ?>
