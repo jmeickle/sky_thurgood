@@ -15,7 +15,7 @@
 
 .olFramedCloudPopupContent {width: 250px; height:350px;}
 
-ul.quicktabs_tabs.quicktabs-style-sky li {height: 28px; min-height: 28px;}
+ul.quicktabs_tabs.quicktabs-style-sky li a {padding: 0px 6px;}
 
 .pager-item .activeSlide {font-weight: bold}
 
