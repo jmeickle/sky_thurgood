@@ -11,6 +11,22 @@
 
 /*This is ridiculously messy. My apologies to whoever finds this! I swear I planned to refactor this...*/
 
+.olPopup #popup {width: 300px; height: 400px;}
+
+.olFramedCloudPopupContent {width: 250px; height:350px;}
+
+ul.quicktabs_tabs.quicktabs-style-sky li {height: 28px; min-height: 28px;}
+
+.pager-item .activeSlide {font-weight: bold}
+
+.views_slideshow_singleframe_pager {position:absolute; left:10%; right:10%; bottom: 0px;}
+
+.views_slideshow_main {height:150px;}
+
+.hierarchical-select-lineages {list-style-type: none}
+
+.tab-wrapper {width: 960px; clear:both; margin:0px auto;}
+
 body {background:#ffffff url('../images/Hartford.jpg') center center no-repeat;}
 
 .node {padding-right: 0px}
