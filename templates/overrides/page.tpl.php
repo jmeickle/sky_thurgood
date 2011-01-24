@@ -58,15 +58,8 @@
             <div id="content-top"><?php print $contenttop; ?></div>
             <!-- END CONTENT TOP -->
           <?php endif; ?>
-
-          <?php if ($node_url): ?>
-            <a href="<?php print $node_url; ?>" title="<?php print $title; ?>">
-          <?php endif; ?>
-              <?php if ($title): ?>
-                <h1 class="title"><?php print $title; ?></h1>
-              <?php endif; ?>
-          <?php if ($node_url): ?>
-            </a>
+          <?php if ($title): ?>
+            <h1 class="title"><?php print $title; ?></h1>
           <?php endif; ?>
           <?php if ($help): ?>
             <div class="help"><?php print $help; ?></div>
@@ -80,7 +73,6 @@
             <div id="content-bottom"><?php print $contentbottom; ?></div>
           <?php endif; ?>
         </div>
-       <?php print $tabs; ?>
         <!-- END MAIN INNER -->
       </div>
       <!-- END MAIN -->
@@ -97,6 +89,7 @@
     <div class="push">&nbsp;</div>
   </div>
   <!-- END WRAPPER -->
+  <?php print $tabs; ?>
   <div id="footer" class="layout-region">
     <div id="footer-inner">
       <?php print $contentfooter; ?>
