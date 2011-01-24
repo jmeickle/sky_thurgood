@@ -11,13 +11,13 @@
 
 /*This is ridiculously messy. My apologies to whoever finds this! I swear I planned to refactor this...*/
 
-.edit-field-location-address-0-value-wrapper, .edit-field-location-additional-0-value-wrapper, .edit-field-location-city-0-value-wrapper, .edit-field-location-state-0-value-wrapper, .edit-field-location-zip-0-value-wrapper {position: absolute; right: 20px;}
+#edit-field-location-address-0-value-wrapper, #edit-field-location-additional-0-value-wrapper, #edit-field-location-city-0-value-wrapper, #edit-field-location-state-0-value-wrapper, #edit-field-location-zip-0-value-wrapper {position: absolute; right: 20px;}
 
-.edit-field-location-address-0-value-wrapper {top: 100px;}
-.edit-field-location-additional-0-value-wrapper {top: 150px;}
-.edit-field-location-city-0-value-wrapper {top: 200px;}
-.edit-field-location-state-0-value-wrapper {top: 250px;}
-.edit-field-location-zip-0-value-wrapper {top: 300px;}
+#edit-field-location-address-0-value-wrapper {top: 100px;}
+#edit-field-location-additional-0-value-wrapper {top: 150px;}
+#edit-field-location-city-0-value-wrapper {top: 200px;}
+#edit-field-location-state-0-value-wrapper {top: 250px;}
+#edit-field-location-zip-0-value-wrapper {top: 300px;}
 
 fieldset.vertical-tabs-group_location {position: relative;}
 
