@@ -14,17 +14,19 @@
 #block-thurgood-custom-module-article, #block-thurgood-custom-module-event, #block-thurgood-custom-module-place {
   display:inline-block;
   background: white url(http://ctreentry.info/profiles/thurgood/themes/sky_thurgood/images/marble.jpg) top left;
-  width: 200px;
-  margin-left: 5px;
-  margin-right: 5px;
+  width: 180px;
+}
 
+#block-thurgood-custom-module-event {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .panels-flexible-region-1-top-inside {text-align: center;}
 
 .panel-region-separator {display:none;}
 
-h1 {margin-bottom: 5px}
+h1 {margin-bottom: 15px}
 
 #edit-field-location-address-0-value-wrapper, #edit-field-location-additional-0-value-wrapper, #edit-field-location-city-0-value-wrapper, #edit-field-location-state-0-value-wrapper, #edit-field-location-zip-0-value-wrapper {position: absolute; right: 20px;}
 
