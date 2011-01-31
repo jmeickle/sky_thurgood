@@ -11,6 +11,12 @@
 
 /*This is ridiculously messy. My apologies to whoever finds this! I swear I planned to refactor this...*/
 
+#block-thurgood-custom-module-article, #block-thurgood-custom-module-event, #block-thurgood-custom-module-place {display:inline-block;}
+
+.panel-region-separator {display:none;}
+
+h1 {margin-bottom: 5px}
+
 #edit-field-location-address-0-value-wrapper, #edit-field-location-additional-0-value-wrapper, #edit-field-location-city-0-value-wrapper, #edit-field-location-state-0-value-wrapper, #edit-field-location-zip-0-value-wrapper {position: absolute; right: 20px;}
 
 #edit-field-location-address-0-value-wrapper {top: 120px;}
