@@ -12,12 +12,15 @@
 /*This is ridiculously messy. My apologies to whoever finds this! I swear I planned to refactor this...*/
 
 #block-thurgood-custom-module-article, #block-thurgood-custom-module-event, #block-thurgood-custom-module-place {
-  display:inline-block;
-  background: white url(http://ctreentry.info/profiles/thurgood/themes/sky_thurgood/images/marble.jpg) top left;
-  width: 180px;
+  float: left;
+  width: 33%
 }
 
-#block-thurgood-custom-module-event {
+#block-thurgood-custom-module-article, #block-thurgood-custom-module-event, #block-thurgood-custom-module-place .content {
+  background: white url(http://ctreentry.info/profiles/thurgood/themes/sky_thurgood/images/marble.jpg) top left;
+}
+
+#block-thurgood-custom-module-event .content {
   margin-left: 40px;
   margin-right: 40px;
 }
