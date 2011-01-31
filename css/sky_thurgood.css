@@ -11,7 +11,16 @@
 
 /*This is ridiculously messy. My apologies to whoever finds this! I swear I planned to refactor this...*/
 
-#block-thurgood-custom-module-article, #block-thurgood-custom-module-event, #block-thurgood-custom-module-place {display:inline-block;}
+#block-thurgood-custom-module-article, #block-thurgood-custom-module-event, #block-thurgood-custom-module-place {
+  display:inline-block;
+  background: white url(http://ctreentry.info/profiles/thurgood/themes/sky_thurgood/images/marble.jpg) top left;
+  width: 200px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.panels-flexible-region-1-top-inside {text-align: center;}
 
 .panel-region-separator {display:none;}
 
