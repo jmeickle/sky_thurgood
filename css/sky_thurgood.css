@@ -11,18 +11,18 @@
 
 /*This is ridiculously messy. My apologies to whoever finds this! I swear I planned to refactor this...*/
 
+..panels-flexible-region-1-top {width: 100%;}
+
 #block-thurgood-custom-module-article, #block-thurgood-custom-module-event, #block-thurgood-custom-module-place {
   float: left;
-  width: 33%
+  width: 33.3333%;
 }
 
 #block-thurgood-custom-module-article, #block-thurgood-custom-module-event, #block-thurgood-custom-module-place .content {
   background: white url(http://ctreentry.info/profiles/thurgood/themes/sky_thurgood/images/marble.jpg) top left;
-}
-
-#block-thurgood-custom-module-event .content {
-  margin-left: 40px;
-  margin-right: 40px;
+  height: 250px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .panels-flexible-region-1-top-inside {text-align: center;}
