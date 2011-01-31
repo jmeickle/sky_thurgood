@@ -18,7 +18,7 @@
   width: 33.3333%;
 }
 
-#block-thurgood-custom-module-article, #block-thurgood-custom-module-event, #block-thurgood-custom-module-place .content {
+#block-thurgood-custom-module-article .content, #block-thurgood-custom-module-event .content, #block-thurgood-custom-module-place .content {
   background: white url(http://ctreentry.info/profiles/thurgood/themes/sky_thurgood/images/marble.jpg) top left;
   height: 250px;
   margin-left: 15px;
