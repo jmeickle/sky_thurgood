@@ -13,18 +13,30 @@
 
 ..panels-flexible-region-1-top {width: 100%;}
 
-#block-thurgood-custom-module-article, #block-thurgood-custom-module-event, #block-thurgood-custom-module-place {
+#block-thurgood-custom-module-article,
+#block-thurgood-custom-module-event,
+#block-thurgood-custom-module-place,
+#block-thurgood-custom-module-tutorial,
+#block-thurgood-custom-module-filter,
+#block-thurgood-custom-module-workflow,
+ {
   float: left;
-  width: 33.3333%;
+  width: 25%;
 }
 
 p.dashboard-block {padding: 5px;}
 
-#block-thurgood-custom-module-article .content, #block-thurgood-custom-module-event .content, #block-thurgood-custom-module-place .content {
+#block-thurgood-custom-module-article .content,
+#block-thurgood-custom-module-event .content,
+#block-thurgood-custom-module-place .content
+#block-thurgood-custom-module-tutorial .content
+#block-thurgood-custom-module-filter .content
+#block-thurgood-custom-module-workflow .content
+{
   background: white url(http://ctreentry.info/profiles/thurgood/themes/sky_thurgood/images/marble.jpg) top left;
   height: 250px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
 .panels-flexible-region-1-top-inside {text-align: center;}
