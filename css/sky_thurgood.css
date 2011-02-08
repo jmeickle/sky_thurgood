@@ -216,7 +216,7 @@ fieldset.faceted-search-keyword, fieldset.faceted-search-guided, fieldset.fieldg
 #navigation a, #navigation a:visited {background:none;}
 #navigation .wrap-{float: right;}
 
-div#header {background:#ffffff url('../images/marble.jpg') bottom;}
+div#header {background:#ffffff url('../images/marble.jpg') bottom; height: auto;}
 #header #site-name a {font-family: Georgia, serif; color:#555555; font-weight:bold; text-shadow:3px 3px 3px #FFFFFF; font-size: .8em;}
 
 h2 {font-size: 2em; letter-spacing: 0}
