@@ -12,7 +12,11 @@
 /*This is ridiculously messy. My apologies to whoever finds this! I swear I planned to refactor this...*/
 
 .panels-flexible-region-1-top,
-.panels-flexible-region-1-top__admin_ {width: 100%;}
+.panels-flexible-region-1-top__admin_
+{
+  text-align: center;
+  width: 100%;
+}
 
 #block-thurgood-custom-module-article,
 #block-thurgood-custom-module-event,
@@ -39,8 +43,6 @@ p.dashboard-block {padding: 5px;}
   margin-left: 7px;
   margin-right: 7px;
 }
-
-.panels-flexible-region-1-top-inside {text-align: center;}
 
 .panel-region-separator {display:none;}
 
