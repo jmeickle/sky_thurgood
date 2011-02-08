@@ -18,8 +18,8 @@
 #block-thurgood-custom-module-place,
 #block-thurgood-custom-module-tutorial,
 #block-thurgood-custom-module-filter,
-#block-thurgood-custom-module-workflow,
- {
+#block-thurgood-custom-module-workflow
+{
   float: left;
   width: 25%;
 }
@@ -29,8 +29,8 @@ p.dashboard-block {padding: 5px;}
 #block-thurgood-custom-module-article .content,
 #block-thurgood-custom-module-event .content,
 #block-thurgood-custom-module-place .content
-#block-thurgood-custom-module-tutorial .content
-#block-thurgood-custom-module-filter .content
+#block-thurgood-custom-module-tutorial .content,
+#block-thurgood-custom-module-filter .content,
 #block-thurgood-custom-module-workflow .content
 {
   background: white url(http://ctreentry.info/profiles/thurgood/themes/sky_thurgood/images/marble.jpg) top left;
