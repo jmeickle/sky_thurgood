@@ -184,6 +184,7 @@ fieldset.faceted-search-keyword, fieldset.faceted-search-guided, fieldset.fieldg
 		border-style: double;
 		border-width: medium thick;
 		border-color:#555555;
+                margin-top: 20px;
 		margin-left:-5px;
 		margin-right: -5px;
 		padding-left: 0px;
