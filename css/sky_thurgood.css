@@ -16,12 +16,6 @@
   width: 100% !important;
 }
 
-.panels-flexible-region-1-top,
-.panels-flexible-region-1-top__admin_
-{
-  text-align: center;
-}
-
 #block-thurgood-custom-module-article,
 #block-thurgood-custom-module-event,
 #block-thurgood-custom-module-place,
@@ -31,6 +25,7 @@
 {
   float: left;
   width: 25%;
+  text-align: center;
 }
 
 p.dashboard-block {padding: 5px;}
