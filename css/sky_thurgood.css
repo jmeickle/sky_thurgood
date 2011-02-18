@@ -11,11 +11,15 @@
 
 /*This is ridiculously messy. My apologies to whoever finds this! I swear I planned to refactor this...*/
 
+.panels-flexible-region
+{
+  width: 100% !important;
+}
+
 .panels-flexible-region-1-top,
 .panels-flexible-region-1-top__admin_
 {
   text-align: center;
-  width: 100%;
 }
 
 #block-thurgood-custom-module-article,
