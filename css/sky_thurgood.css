@@ -47,7 +47,16 @@ p.dashboard-block {padding: 5px;}
 
 h1 {margin-bottom: 15px}
 
-#edit-field-location-address-0-value-wrapper, #edit-field-location-additional-0-value-wrapper, #edit-field-location-city-0-value-wrapper, #edit-field-location-state-0-value-wrapper, #edit-field-location-zip-0-value-wrapper {position: absolute; right: 20px;}
+#edit-field-location-address-0-value-wrapper,
+#edit-field-location-additional-0-value-wrapper,
+#edit-field-location-city-0-value-wrapper,
+#edit-field-location-state-0-value-wrapper,
+#edit-field-location-zip-0-value-wrapper
+{
+  position: absolute;
+  right: 20px;
+  width: 250px;
+}
 
 #edit-field-location-address-0-value-wrapper {top: 120px;}
 #edit-field-location-additional-0-value-wrapper {top: 170px;}
@@ -55,7 +64,16 @@ h1 {margin-bottom: 15px}
 #edit-field-location-state-0-value-wrapper {top: 270px;}
 #edit-field-location-zip-0-value-wrapper {top: 320px;}
 
-fieldset.vertical-tabs-group_location {position: relative;}
+fieldset.vertical-tabs-group_location
+{
+  position: relative;
+  width: 700px;
+}
+
+fieldset.vertical-tabs-group_location input.form-text
+{
+  width: 80%;
+}
 
 #edit-field-location-openlayers-geocoder-query-wrapper, #edit-field-location-openlayers-wkt-wrapper {width: 400px;}
 
