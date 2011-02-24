@@ -75,6 +75,11 @@ fieldset.vertical-tabs-group_location input.form-text
   width: 80%;
 }
 
+div.form-item input.noderelationships-nodereference-autocomplete
+{
+  width: 80%;
+}
+
 #edit-field-location-openlayers-geocoder-query-wrapper, #edit-field-location-openlayers-wkt-wrapper {width: 400px;}
 
 fieldset.collapsible {padding: 10px;}
