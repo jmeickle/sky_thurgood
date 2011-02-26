@@ -59,12 +59,12 @@ h1 {margin-bottom: 15px}
   width: 250px;
 }
 
-#edit-field-location-name-0-value-wrapper {top: 120px;}
-#edit-field-location-address-0-value-wrapper {top: 170px;}
-#edit-field-location-additional-0-value-wrapper {top: 220px;}
-#edit-field-location-city-0-value-wrapper {top: 270px;}
-#edit-field-location-state-0-value-wrapper {top: 320px;}
-#edit-field-location-zip-0-value-wrapper {top: 370px;}
+#edit-field-location-name-0-value-wrapper {top: 70px;}
+#edit-field-location-address-0-value-wrapper {top: 120px;}
+#edit-field-location-additional-0-value-wrapper {top:170px;}
+#edit-field-location-city-0-value-wrapper {top: 220px;}
+#edit-field-location-state-0-value-wrapper {top: 270px;}
+#edit-field-location-zip-0-value-wrapper {top: 320px;}
 
 
 fieldset.vertical-tabs-group_location
