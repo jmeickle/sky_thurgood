@@ -8,8 +8,7 @@
  * http://api.drupal.org/api/function/template_preprocess_page/6
  */
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" lang="<?php print $language->language; ?>" xml:lang="<?php print $language->language; ?>">
     <head>
       <?php print $head; ?>
@@ -38,19 +37,30 @@
       <div id="navigation"><?php print $primary_links; ?></div>
     <?php endif; ?>
     <div id="container" class="layout-region">
+
+          <?php if ($tabs): ?>
+              <?php print $tabs; ?>
+          <?php endif; ?>
+
+          <?php if ($show_messages && $messages != ""): ?>
+              <?php print $messages; ?>
+           <?php else: ?>
+               <?php if ($tabs): ?>
+                   <div class="messages empty"></div>
+               <?php endif; ?>
+          <?php endif; ?>
+
       <?php if ($left): ?>
         <div id="sidebar-left" class="sidebar">
           <div class="inner">
             <?php print $left; ?>
           </div>
         </div>
+
       <!-- END HEADER -->
       <?php endif; ?>
       <div id="main">
         <div class="main-inner">
-          <?php if ($show_messages && $messages != ""): ?>
-          <?php print $messages; ?>
-          <?php endif; ?>
           <?php if ($is_front && $mission): ?>
             <div class="mission"><?php print $mission; ?></div>
           <?php endif; ?>
@@ -76,6 +86,16 @@
         <!-- END MAIN INNER -->
       </div>
       <!-- END MAIN -->
+
+      <?php if ($mid): ?>
+        <div id="sidebar-mid" class="sidebar">
+          <div class="inner">
+            <?php print $mid; ?>
+          </div>
+        </div>
+      <!-- END SIDEBAR MID -->
+      <?php endif; ?>
+
       <?php if ($right): ?>
         <div id="sidebar-right" class="sidebar">
           <div class="inner">
@@ -89,7 +109,6 @@
     <div class="push">&nbsp;</div>
   </div>
   <!-- END WRAPPER -->
-  <?php print $tabs; ?>
   <div id="footer" class="layout-region">
     <div id="footer-inner">
       <?php print $contentfooter; ?>
