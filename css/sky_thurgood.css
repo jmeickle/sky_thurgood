@@ -11,6 +11,430 @@
 
 /*This is ridiculously messy. My apologies to whoever finds this! I swear I planned to refactor this...*/
 
+/**
+.view-thurgood-search-event.view-display-id-calendar-1 .views-exposed-form .views-exposed-widget
+{
+float: left;
+padding: 0;
+}
+
+.view-thurgood-search-event.view-display-id-calendar-1 .views-exposed-form .views-exposed-widgets 
+{
+margin-bottom: 0px;
+}
+
+.view-thurgood-search-event.view-display-id-calendar-1 .view-filters
+{
+position: relative;
+width: 40%;
+height: 35px;
+}
+**/
+
+/**
+.view-thurgood-search-event.view-display-id-calendar-1 .views-exposed-form .views-exposed-widget + .views-exposed-widget .views-operator,
+.view-thurgood-search-event.view-display-id-calendar-1 .views-exposed-form .views-exposed-widget + .views-exposed-widget .views-widget
+{
+float: left;
+}
+**/
+
+#views-exposed-form-thurgood-search-event-calendar-1 .views-widget
+{
+float: right;
+}
+
+#views-exposed-form-thurgood-search-event-calendar-1 .views-operator
+{
+float: left;
+}
+
+#edit-tags-wrapper {
+width: 200px;
+}
+
+#edit-tags-op, #edit-tags-wrapper, #hierarchical-select-52-wrapper-wrapper
+{
+margin-right: 5px;
+}
+
+/**
+.view-thurgood-search-event.view-display-id-calendar-1 .view-filters > form
+{
+position: absolute;
+}
+**/
+
+div.views-exposed-widget label[for=edit-tags],
+div.views-exposed-widget label[for=edit-region]
+{
+display: block;
+margin-right: 10px;
+font-size: 1em;
+}
+
+.view-thurgood-search-event.view-display-id-calendar-1 .views-exposed-form label[for=edit-region] + div.views-widget
+{
+float: none;
+margin-bottom: 5px;
+}
+
+
+.box > h2 {
+display: none;
+}
+
+body[id|=page-place-search-results] h1.title
+{
+padding-right: 150px;
+}
+
+.faceted-search-page {
+position: relative;
+}
+
+.faceted-search-numbering
+{
+position: absolute;
+right: 0px;
+top: -35px;
+width: 150px;
+text-align: right;
+}
+
+fieldset.vertical-tabs-group_location #conditional-field-toggle-location .form-item-radios div,
+fieldset.vertical-tabs-group_location #conditional-field-toggle-location .form-item-radios label
+{
+display: inline;
+}
+
+div.content-add-more.clear-block {
+margin-top: 5px;
+}
+
+div#calpopup {
+width: 50%;
+}
+
+#container {
+margin-top: 10px;
+}
+
+.calendar-calendar .year-view td {
+width: auto;
+}
+
+.view-content .calendar-calendar li {
+list-style-type: none;
+}
+
+.calendar-date-select
+{
+width: 250px;
+}
+
+.calendar-date-select form
+{
+width: auto;
+float: none;
+}
+
+.calendar-date-select input.form-submit
+{
+position: absolute;
+top: 0px;
+right: 150px;
+}
+
+.view-content .calendar-calendar > ul.links
+{
+position: absolute;
+top: -20px;
+right: 0px;
+}
+
+.view-content .calendar-calendar .calendar-date-select
+{
+position: absolute;
+top: -50px;
+right: 0px;
+}
+
+/**
+.view-content .calendar-calendar .date-nav
+{
+position: relative;
+width: 50%;
+margin: 0px auto;
+text-align: center;
+padding: 0px;
+}
+
+.view-content .calendar-calendar .date-prev,
+.view-content .calendar-calendar .date-next,
+.view-content .calendar-calendar .date-heading
+{
+float: left;
+padding: 0;
+margin: 0 auto;
+text-align: center;
+position: static;
+display: block;
+}
+
+.view-content .calendar-calendar .date-heading
+{
+width: auto;
+padding: 0px 20px;
+}
+
+.view-content .calendar-calendar .date-prev,
+.view-content .calendar-calendar .date-next
+{
+position: absolute;
+margin: 0;
+padding: 0;
+width: 60px;
+}
+
+.view-content .calendar-calendar .date-prev
+{
+left: -60px;
+}
+.view-content .calendar-calendar .date-next
+{
+right: -60px;
+}
+**/
+
+.view-content .calendar-calendar .date-prev,
+.view-content .calendar-calendar .date-next
+{
+top: 5px;
+}
+
+.attachment-after > .calendar-calendar > table.full,
+.attachment-after > .calendar-calendar > .year-view > table,
+.attachment-after > .calendar-calendar > .month-view > table,
+.attachment-after > .calendar-calendar > .week-view > table,
+.attachment-after > .calendar-calendar > .day-view > table
+{
+width: 100%;
+margin: 10px auto;
+border: 1px solid #DDD;
+}
+
+.calendar-calendar table .calendar-calendar {
+margin: 5px;
+}
+
+.calendar-calendar .month-view .full .calendar-agenda-hour,
+.calendar-calendar .week-view .full .calendar-agenda-hour
+{
+width: 10%;
+}
+
+label.views-label-tid
+{
+display: block;
+}
+
+.quicktabs_main.quicktabs-style-sky
+{
+padding-top: 5px;
+}
+
+div.view-content > div.views-row > div > label + div.field-content,
+div.view-content > div.views-row > div > label + span.field-content,
+div.view-content > div.views-row > div > span.field-content
+{
+margin-left: 10px;
+}
+
+div.view-content > div.views-row > .views-field-field-location-city-value > span.field-content
+{
+margin-left: 10px;
+}
+
+div.view-content > div.views-row > div.views-field-field-location-openlayers-wkt > span.field-content
+{
+margin-left: 0px;
+}
+
+.view-thurgood-block-multimedia .view-content > div > div > span,
+.view-thurgood-block-user .view-content > div > .views-field-phpcode > span,
+.view-thurgood-block-user .view-content > div > .views-field-created > span,
+.view-thurgood-block-connection .view-content > div > div > .field-content
+{
+margin-left: 0px;
+}
+
+.view-thurgood-block-connection .view-content > div > .views-field-title
+{
+margin-left: 10px;
+}
+
+#block-views-thurgood-block-map-block-3 div.views-field-title
+{
+border-bottom: 1px solid #CCC;
+padding-bottom: 5px;
+margin-bottom: 5px;
+}
+
+#block-views-thurgood-block-map-block-3 .views-field-title label.views-label-title
+{
+margin-left: 10px;
+}
+
+#block-views-thurgood-block-map-block-3 .views-field-title span.field-content
+{
+margin-left: 20px;
+display: block;
+}
+
+#block-views-thurgood-block-map-block-2 .views-field-field-location-openlayers-wkt,
+#block-views-thurgood-block-map-block-3 .views-field-field-location-openlayers-wkt-1
+{
+margin-right: -4px;
+margin-left: -4px;
+margin-top: 5px;
+margin-bottom: -4px;
+}
+
+.block .content {
+background: #fff;
+padding: 4px 4px;
+}
+
+.field-content i
+{
+color: #ccc;
+text-align: center;
+font-style: italic;
+padding: 5px 5px;
+}
+
+.not-found
+{
+color: #ccc;
+text-align: center;
+font-style: italic;
+padding: 10px 35px;
+}
+
+table#field_hours_values .office-hours-block
+{
+position: relative;
+}
+
+table#field_hours_values .office-hours-block .form-item-office-hours-select:first-child
+/** .form-item-office-hours-select**/
+{
+position: absolute;
+left: 100px;
+}
+
+table#field_hours_values .office-hours-block > .form-item-office-hours-select + .form-item-office-hours-select
+{
+position: absolute;
+left: 300px;
+}
+
+#main .title {
+border-bottom: solid 1px #DDD;
+margin-bottom: 10px;
+}
+
+.no-sidebars #main {
+width: 950px;
+margin: 10px 5px;
+}
+
+.one-sidebar #main
+{
+width: 625px;
+margin: 10px 5px;
+}
+
+.one-sidebar .sidebar
+{
+width: 305px;
+margin: 10px 5px;
+}
+
+.two-sidebars #main
+{
+width: 460px;
+margin: 10px 5px;
+}
+
+.two-sidebars .sidebar
+{
+margin: 10px 5px;
+width: 230px;
+}
+
+.left #main
+{
+margin-right: 10px;
+}
+
+.all #sidebar-left,
+.both #sidebar-left,
+.left #sidebar-left
+{
+margin-left: 10px;
+}
+
+.right #main,
+.right-mid #main
+{
+margin-left: 10px;
+}
+
+.all #sidebar-right,
+.both #sidebar-right,
+.right #sidebar-right,
+.right-mid #sidebar-right
+{
+margin-right: 10px;
+}
+
+.sidebar .inner {
+padding: 0px;
+}
+
+#main .main-inner {
+padding: 0px 5px;
+}
+
+div.tab-wrapper
+{
+width: auto;
+margin: 20px 10px 1px 10px;
+border-bottom: none;
+}
+
+div.messages
+{
+width: auto;
+margin: 0px 10px;
+padding: 1em 1em 1em 1em;
+}
+
+div.messages.empty
+{
+padding: .3em;
+}
+
+div.messages div.inner {
+min-height: 32px;
+}
+
+div#tabs-primary {
+margin-left: 20px;
+}
+
 .panels-flexible-region
 {
   width: 100% !important;
@@ -24,8 +448,9 @@
 #block-thurgood-custom-module-workflow
 {
   float: left;
-  width: 25%;
+  width: 24%;
   text-align: center;
+  vertical-align: top;
 }
 
 p.dashboard-block {padding: 5px;}
@@ -43,9 +468,16 @@ p.dashboard-block {padding: 5px;}
   margin-right: 7px;
 }
 
-.panel-region-separator {display:none;}
+.panel-region-separator
+{
+display:none;
+}
 
-h1 {margin-bottom: 15px}
+.vertical-tabs-group_location div#openlayers-container-openlayers-cck-widget-map-field_location
+{
+float: left;
+margin-top: 15px;
+}
 
 #edit-field-location-name-0-value-wrapper,
 #edit-field-location-address-0-value-wrapper,
@@ -54,36 +486,35 @@ h1 {margin-bottom: 15px}
 #edit-field-location-state-0-value-wrapper,
 #edit-field-location-zip-0-value-wrapper
 {
-  position: absolute;
-  right: 20px;
-  width: 250px;
+float: right;
+margin-top: 5px;
+margin-bottom: 5px;
+width: 300px;
 }
 
-#edit-field-location-name-0-value-wrapper {top: 70px;}
-#edit-field-location-address-0-value-wrapper {top: 120px;}
-#edit-field-location-additional-0-value-wrapper {top:170px;}
-#edit-field-location-city-0-value-wrapper {top: 220px;}
-#edit-field-location-state-0-value-wrapper {top: 270px;}
-#edit-field-location-zip-0-value-wrapper {top: 320px;}
-
-
-fieldset.vertical-tabs-group_location
+#edit-field-location-name-0-value-wrapper
 {
-  position: relative;
-  width: 700px;
+margin-top: 0px;
 }
 
-fieldset.vertical-tabs-group_location input.form-text
+.form-item {
+margin: 10px 0;
+}
+
+.noderelationships-nodereference-buttons-wrapper {
+margin-top: 5px;
+display: block;
+}
+
+#field-location-toggle
 {
-  width: 80%;
+display: none;
 }
 
-div.form-item input.noderelationships-nodereference-autocomplete
+#edit-field-location-openlayers-geocoder-query
 {
-  width: 80%;
+margin-bottom: 25px;
 }
-
-#edit-field-location-openlayers-geocoder-query-wrapper, #edit-field-location-openlayers-wkt-wrapper {width: 400px;}
 
 fieldset.collapsible {padding: 10px;}
 fieldset.collapsible a {font-size: 12px; font-weight: normal; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, Arial, sans-serif;}
@@ -92,9 +523,51 @@ fieldset.collapsible a {font-size: 12px; font-weight: normal; font-family: 'Luci
 
 div.vertical-tabs {border: none;}
 
-div.vertical-tabs-panes {margin-left: 20px;}
+div.vertical-tabs-panes {
+background: #fff;
+width: 98%;
+float: right;
+border: 1px solid #DDD;
+}
 
-div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {padding-top: 15px;}
+div.vertical-tabs .vertical-tabs-panes .content-multiple-table {width: 100%; margin-top: 15px;}
+
+fieldset
+{
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+
+fieldset.vertical-tabs-pane {
+border: none;
+background: none;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+
+
+fieldset.faceted-search-keyword, fieldset.faceted-search-guided, fieldset.fieldgroup {
+width: 93%;
+margin-right:
+auto; margin-left: auto;}
+
+.node .meta, fieldset.faceted-search-keyword, fieldset.faceted-search-guided, fieldset.fieldgroup
+{
+background:#ffffff url('../images/marble.jpg') center center;
+}
+
+.meta, fieldset.faceted-search-keyword, fieldset.faceted-search-guided, fieldset.fieldgroup
+{
+border-color: #DDD;
+border-style: solid;
+border-width: 1px;
+}
 
 #edit-teaser-js {height: 100px;}
 #edit-body {height:200px;}
@@ -186,16 +659,6 @@ fieldset legend, div.faceted-search-facet h3, div.views-exposed-widget label, di
 
 table.faceted-search {width: auto;}
 
-fieldset.faceted-search-keyword, fieldset.faceted-search-guided, fieldset.fieldgroup {-webkit-box-shadow: none; width: 93%; margin-right: auto; margin-left: auto;}
-
-.node .meta, fieldset.faceted-search-keyword, fieldset.faceted-search-guided, fieldset.fieldgroup {background:#ffffff url('../images/marble.jpg') center center;}
-
-.meta, fieldset.faceted-search-keyword, fieldset.faceted-search-guided, fieldset.fieldgroup {	border-color: #DDD;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-style: solid;
-	border-width: 1px;}
-
 .without-photo .meta {	width: 93%;
 			float: none;
 			padding-top: 5px; padding-bottom: 5px; margin-right: auto; margin-left: auto; margin-bottom: 5px;}
@@ -244,7 +707,16 @@ fieldset.faceted-search-keyword, fieldset.faceted-search-guided, fieldset.fieldg
 div#header {background:#ffffff url('../images/marble.jpg') bottom; height: auto;}
 #header #site-name a {font-family: Georgia, serif; color:#555555; font-weight:bold; text-shadow:3px 3px 3px #FFFFFF; font-size: .8em;}
 
-h2 {font-size: 2em; letter-spacing: 0}
+h2
+{
+font-size: 1.2em;
+font-weight: bold;
+letter-spacing: 0;
+margin-bottom: 5px;
+}
+
+.block .content h3 {font-size: 1em; font-style: italic; letter-spacing: 0;}
+
 .block h3.title {font-size: 1.5em;}
 .form-submit{font-family: Georgia, serif;}
 .form-item label {font-size: 1em; font-weight: normal;}
