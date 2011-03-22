@@ -16,6 +16,9 @@
         <h2><a href="<?php print $node_url; ?>" title="<?php print $title; ?>"><?php print $title; ?></a></h2>
       <?php endif; ?>
 <?php endif; ?>
+  <div class="event-date">
+      <?php print content_format('field_date', $node->field_date[0], 'default'); ?>
+  </div>
   <div class="content clearfix">
     <?php print $content; ?>
   </div>
