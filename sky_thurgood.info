@@ -7,6 +7,7 @@ base theme = sky
 ; REGIONS
 ; -----------------------------------------------------------------------------
 regions[left] = Left sidebar
+regions[mid] = Middle sidebar
 regions[right] = Right sidebar
 regions[contenttop] = Content top
 regions[contentbottom] = Content bottom
