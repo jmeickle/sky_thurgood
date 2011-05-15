@@ -22,11 +22,4 @@
 <?php if ($teaser): ?>
     </div>
 <?php endif; ?>
-<?php if (!$teaser): ?>
-  <?php if ($links): ?>
-    <div class="links">
-      <?php print $links; ?>
-    </div>
-  <?php endif; ?>
-<?php endif; ?>
 </div>
